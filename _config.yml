@@ -1,0 +1,34 @@
+title: ziippy's Research Blog
+description: Study Blog about anything.
+
+#url: http://brianmaierjr.github.com/long-haul
+url: https://ziippy.github.io/
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+#gems: [jekyll-paginate]
+gems:
+ - jekyll-paginate
+ - jekyll-archives
+ - jekyll-time-to-read
+paginate: 10
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Archives
+   #url: /archives
+   url: /contact
+
+social:
+   github: ziippy
+   #twitter: brianmaierjr
+   facebook: ziippy
+   email: ziippy@naver.com
+
+google_analytics: "UA-58263416-1"
